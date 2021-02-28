@@ -8,17 +8,15 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Latitude</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
+  <!--Navigation Bar-->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Latitude</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+           </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
               <li class="nav-item">
                 <a class="nav-link" href="#">Data</a>
               </li>
@@ -40,27 +38,58 @@
           </div>
         </div>
       </nav>
+      <!--Title container holds page title AND Sibebar title-->
       <div class="container">
           <div class="row">
-              <div class="col-md-12">
-                <h1 class="dsplay-1">Summary: Latitude vs. X </h1>  
+              <div class="col-md-8">
+                <h1 class="dsplay-1">Summary: Latitude vs. X </h1>
+                <!--Add Dividing Line-->
               </div>
-          </div>
-          <div class="row">
-              <div class="col-md-12">
-                  <p>
-                      What is the weather like as we approach the equator? This is the fundamental question that we look at it this data. First, we pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities.  
-                  </p>
-              </div>
-
-          </div>
-          <div class="row">
-              <div class="col-md-12">
-                  <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explantaitons and descriptions of any trends and correlations witnessed.  
-                  </p>
+              <div class="col-md-4">
+                <h2 class="dsplay-1">Visualizations </h2> 
+                <!--Add Dividing Line-->
               </div>
           </div>
       </div>
+      <!--Content Container holds image and summary AND the side bar images-->
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8">
+            <div class="row">
+              <div class="col-md-4">
+                <img src="assets/Fig1.png" class="img-thumbnail" alt="City Latitude vs. Max Temp">
+              </div>
+              <div class="col-md">
+                <p>
+                  This project focuses on a fundamental question. What is the weather like as we approach the equator? It's easy to assume that it gets warmer, right? If really pressed, how would we prove it and find other insights into weather given latitude? First, we pulled data from OpenWeatherMap API to assemble a dataset on over 500 cities.  
+                </p>
+                <p>
+                  After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed, and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explantaitons and descriptions of any trends and correlations witnessed.  
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="row">
+              <div class="col-md">
+                <img src="assets/Fig1.png" class="img-thumbnail" alt="City Latitude vs. Max Temp">
+              </div>
+              <div class="col-md">
+                <img src="assets/Fig2.png" class="img-thumbnail" alt="City Latitude vs. Humidity">
+              </div>
+             </div>
+             <div class="row">
+                <div class="col-md">
+                  <img src="assets/Fig3.png" class="img-thumbnail" alt="City Latitude vs. Cloudiness">  
+                </div>
+                <div class="col-md">
+                  <img src="assets/Fig4.png" class="img-thumbnail" alt="City Latitude vs. Wind Speed">  
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      
     
 
 </body>
