@@ -53,40 +53,17 @@
         </div>
         <div clas="col-md-12">
             <p>
-                 The following table includes all of the data used for plotting during this project. 
+                 The following table SHOULD include the data used for plotting during this project. Still in process. 
             </p> 
         </div>
     </div>
     <div class="container">
         <table class="table">
-            <thead class="thead-dark">
-                <tr>
-                <th scope="col">#</th>
-                <th scope="col">Sample First</th>
-                <th scope="col">Sample Last</th>
-                <th scope="col">Sample data: Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                <th scope="row">1</th>
-                <td>Mark</td>
-                <td>Otto</td>
-                <td>@mdo</td>
-                </tr>
-                <tr>
-                <th scope="row">2</th>
-                <td>Jacob</td>
-                <td>Thornton</td>
-                <td>@fat</td>
-                </tr>
-                <tr>
-                <th scope="row">3</th>
-                <td>Larry</td>
-                <td>the Bird</td>
-                <td>@twitter</td>
-                </tr>
-            </tbody>
+            <!--Create the dataframe-->
+            df = pd.DataFrame(cities.csv)
+            
+            <!--Parse the dataframe into an HTML element with 3 Bootstrap classes assigned. -->
+            html = df.to_html(classes=["table-bordered", "table-striped", "table-hover"])
         </table>
       
 
