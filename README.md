@@ -1,25 +1,37 @@
-Latitude Analysis Dashboard
+# Latitude Analysis Dashboard
 
-The challenge here is to create a visualization dashboard website using visualizations created in the matplotlib challenge. Specifically, the data ploted is [weather data](Resources/cities.csv).
+This website dashboard displays information on weather in relation to distance from the equator. The landing page includes the project summary with links to individual plot pages, a comparison page, and a data page. The individual plot pages show a larger image of the plot with a summary of its findings. The comparison page shows the plots displayed next to each other with links to each individual page. The data page contains a data table with weather information on cities from around the globe. Check out the deployed Latitude Analysis Dashboard [here](https://hopeneely.github.io/Web-Design-Challenge/index.html).
 
-In this dashboard, individual pages have been created for each plot and links to navigate between them. These pages contain the visualizations and their corresponding explanations. A landing page is included showing the comparison of all of the plots, and another page where we can view the data used to build them.
+## Data Sources:
 
-The website consists of 7 pages total, including:
+ [Weather Data](Resources/cities.csv)
 
-* A Home paige containing:
+## Tools:
+
+Python<br>
+Jupyter Notebook<br>
+HTML5/Bootstrap
+
+# Process
+
+HTML5 and Bootstrap were used to create the website consisting of 7 pages.
+* Landing page contains:
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
-* Four visualization pages, each with:
+* 4 visualization pages, each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.
-* A "Comparisons" page that:
-  * Contains all of the visualizations on the same page so we can easily visually compare them.
-  * Uses a Bootstrap grid for the visualizations.
-* A "Data" page that:
-  * Displays a responsive table containing the data used in the visualizations.
+* Comparisons page with:
+  * All of the visualizations on the same page so we can easily visually compare them.
+  * A Bootstrap grid for the visualizations.
+* Data page with:
+  * A responsive Bootstrap table containing the data used in the visualizations.
 
-The website includes, at the top of every page, have a navigation menu that:
- * Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
- * Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
- * Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
+Python and Jupyter Notebook were used to convert csv file into html table data. Then it was simply copied into the data.html file.<br> 
+
+# Contact Information
+### Hope Neely<br>
+Email: [hope.neely@gmail.com](hope.neely@gmail.com)<br>
+LinkedIn: [https://www.linkedin.com/in/hopeneely/](https://www.linkedin.com/in/hopeneely/)
+
