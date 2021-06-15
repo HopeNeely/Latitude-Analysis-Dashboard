@@ -18,19 +18,19 @@ HTML5 and Bootstrap were used to create the website consisting of 7 pages.
 * Landing page contains:
   * An explanation of the project.
   * Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.<br>
-  ![image](Images/Latitude_Landing.png)
+![image](Images/Latitude_Landing.png)<br>
 * 4 visualization pages, each with:
   * A descriptive title and heading tag.
   * The plot/visualization itself for the selected comparison.
   * A paragraph describing the plot and its significance.<br>
-  ![image](Images/Max_Temp_Page.png)
+![image](Images/Max_Temp_Page.png)<br>
 * Comparisons page with:
   * All of the visualizations on the same page so we can easily visually compare them.
   * A Bootstrap grid for the visualizations.<br>
-  ![image](Images/Comp_Page.png)
+![image](Images/Comp_Page.png)<br>
 * Data page with:
   * A responsive Bootstrap table containing the data used in the visualizations.<br>
-  ![image](Images/Data_Page.png)
+![image](Images/Data_Page.png)<br>
 
 Python and Jupyter Notebook were used to convert csv file into html table data. Then it was simply copied into the data.html file.<br> 
 
