@@ -1,6 +1,6 @@
 # Latitude Analysis Dashboard
 
-This website dashboard displays information on weather in relation to distance from the equator. The landing page includes the project summary with links to individual plot pages, a comparison page, and a data page. The individual plot pages show a larger image of the plot with a summary of its findings. The comparison page shows the plots displayed next to each other with links to each individual page. The data page contains a data table with weather information on cities from around the globe. Check out the deployed Latitude Analysis Dashboard [here](https://hopeneely.github.io/Web-Design-Challenge/index.html).
+This website dashboard displays information on weather in relation to distance from the equator. The landing page includes the project summary with links to individual plot pages, a comparison page, and a data page. The individual plot pages show a larger image of the plot with a summary of its findings. The comparison page shows the plots displayed next to each other with links to each individual page. The data page contains a data table with weather information on cities from around the globe. Check out the deployed Latitude Analysis Dashboard [here](https://hopeneely.github.io/Latitude-Analysis-Dashboard/).
 
 ## Data Sources:
 
